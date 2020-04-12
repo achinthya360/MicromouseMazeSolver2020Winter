@@ -12,7 +12,6 @@ class Maze {
 protected:
     BitVector256 wallNS;
     BitVector256 wallEW;
-    Dir heading;
     PathFinder *pathFinder;
     unsigned mouseX;
     unsigned mouseY;
@@ -36,6 +35,8 @@ protected:
     }
 
 public:
+    Dir heading;
+    
     Maze(MazeDefinitions::MazeEncodingName name, PathFinder *pathFinder);
 
     inline bool wallInFront() const {
