@@ -10,6 +10,8 @@ If you are on a Unix system you can use the provided Makefile:
 * `make` will compile the code and create an executable `main`.
 * `make run` will compile the code and run the simulation, waiting for an <ENTER> prompt after each move.
 * `make sim` will compile the code and run the simulation from start to finish, without prompting.
+  
+  The make functionality does not currently work...
 
 ### Windows
 
